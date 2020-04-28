@@ -1,30 +1,36 @@
 ﻿[//]: # (Image References)
 
-[image1]: ./static/images/Octopus_Transfer_Learning.JPG "Transfer Learning"
+[image1]: ./static/images/sailing_formula.JPG "Transfer Learning"
+[image2]: ./static/images/funsail.gif "sailing gif"
 
 ## Transfer Learning: Using Convolutional Layers to Give Style to an Image
 
 ![Transfer Learning][image1]
 
-
 ## General Project Details
 
-**Problem Statement**:
+This project is a fun application of neural networks to "transfer" learned styles to a different image's content.
+The feature mapped layers that are created in convultions can be used in combination to find "correlations" that represent style. A VGG-16 model, and layers are used.
+An optimization function is applied to iteratively "transfer" the style. 
 
-**Evaluation**: 
+write more
+
+**Problem Statement**: write more
+**Evaluation**: write more
+
+![sailing gif][image2]
 
 ## Data
+See static for the input images. 
 
 ## Outputs
-
-## Discussion
-
-## Related Projects
+See TransferLearningGifCreate.ipynb.
 
 ## Motivation
+This is a fun application of neural networks, and an interesting concept. In the right business, this could provide an interesting value proposition...
 
 ## Requirements
-See the requirements.txt file for necessary packages.
+Use Google Colab, requirements are already provided in that environment.
 
 ## License
 ### The MIT License (MIT)
