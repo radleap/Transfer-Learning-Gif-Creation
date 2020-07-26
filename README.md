@@ -11,12 +11,8 @@
 
 This project is a fun application of neural networks to "transfer" learned styles to a different image's content.
 The feature mapped layers that are created in convultions can be used in combination to find "correlations" that represent style. A VGG-16 model, and layers are used.
-An optimization function is applied to iteratively "transfer" the style. 
-
-write more
-
-**Problem Statement**: write more
-**Evaluation**: write more
+An optimization function is applied to iteratively "transfer" the style. This is computationally expensive, so using a platform like heroku to operationalize would prove difficult.
+However, scaled computing on AWS is a potential option to operationalize.
 
 ![sailing gif][image2]
 
@@ -27,7 +23,7 @@ See static for the input images.
 See TransferLearningGifCreate.ipynb.
 
 ## Motivation
-This is a fun application of neural networks, and an interesting concept. In the right business, this could provide an interesting value proposition...
+This is a fun application of neural networks, and an interesting concept. In the right business, this could provide an interesting value proposition as seen in popular app or photography software.
 
 ## Requirements
 Use Google Colab, requirements are already provided in that environment.
